@@ -1,6 +1,5 @@
 data = data.astype(np.double, casting='safe')
 # добалено явное указание способа преобразования из одного радиометрического разрешения в другое с большей размерностью
-# ‘safe’ means only casts which can preserve values are allowed.
 
 DATASET_FOLDER = os.path.normpath('/home/iakhmetev/datasets/SEN12MS')
 # добавлено системо-независимая нормализация строки, улучшено имя переменнной
